@@ -14,20 +14,32 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <input placeholder="DIgite o nome da cidade" />
-      <button>Buscar</button>
+    <div class="caixa-maior">
+      <input class="input-cidade" placeholder="DIgite o nome da cidade" />
+      <button class="botao-buscar">
+        <img
+          class="img-buscar"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="busca"
+        />
+      </button>
 
-      <h2>Tempo em São Paulo</h2>
+      <div class="caixa-media">
+        <h2 class="cidade">Tempo em São Paulo</h2>
 
-      <p>21ºC</p>
+        <p class="temp">21ºC</p>
+      </div>
 
-      <img
-        alt="icone-infoTempo"
-        src="https://openweathermap.org/img/wn/04n.png"
-      />
+      <div  class="caixa-menor">
+        <img class="img-previsao"
+         
+          alt="icone-infoTempo"
+          src="https://openweathermap.org/img/wn/04n.png"
+        />
+        <p class="texto-previsao">Nublado</p>
+      </div>
 
-      <p>Umidade: 76%</p>
+      <p class="umidade">Umidade: 76%</p>
     </div>
   </body>
 </html>
